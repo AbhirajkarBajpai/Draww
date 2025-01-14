@@ -37,6 +37,8 @@
 ### File Storage
 - **AWS S3**: Securely stores drawing videos and images.
 
+### Database
+-**MongoDB**: For relevant data storage regarding challenges.
 
 ## Future Enhancements
 
