@@ -1,0 +1,18 @@
+.color_pallet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3vh;
+  padding: 3px 8px;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.color_g6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:5vh;
+  height: 6vh;
+}

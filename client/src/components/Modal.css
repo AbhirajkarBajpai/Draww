@@ -1,0 +1,79 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 66vw;
+  height: 22vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal-container span {
+  color: #000;
+  text-align: center;
+  font-family: Gilroy;
+  /* font-size: 18px; */
+  font-size: 2.25vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.modal-container p {
+  color: #8d8d8d;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-size: 1.75vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  margin-top: 1vh;
+}
+
+.modalBtn{
+  color: #333;
+  font-size: 2.75vh;
+  height: 4vh;
+  width: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.YesBtn{
+  background: linear-gradient(180deg, #aaff00, #3dff07);
+  box-shadow: 0 8px 0 #2b9d71;
+}
+.NoBtn{
+  background: linear-gradient(180deg, #df4b0c, #ff1307);
+  box-shadow: 0 8px 0 #9d2b62;
+}

@@ -1,0 +1,47 @@
+.canva_option_G6h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5vw;
+  margin-top: 4vh;
+}
+.svgCP{
+  height: 5vh;
+  width: 5vh;
+}
+.brush_Sizes_G6h5 {
+  position: absolute;
+  top: -110%;
+  left: -10%;
+  z-index: 8;
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.open_Effect_g6 {
+  animation: openSizeG6 0.3s forwards;
+}
+
+@keyframes openSizeG6 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes closeSizeG6 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.close_Effect_g6 {
+    animation: closeSizeG6 0.3s forwards;
+}

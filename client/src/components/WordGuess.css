@@ -1,0 +1,141 @@
+.word-guess-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5vh;
+  font-family: Arial, sans-serif;
+}
+
+.guess-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95vw;
+  height: 7vh;
+  padding-right: 4px;
+  padding-left: 4px;
+  flex-shrink: 0;
+  border-radius: var(--large, 12px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.guess-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.8vh;
+  height: 4.8vh;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #34b3df;
+  background: #fff;
+
+  color: #17a2d9;
+  text-align: center;
+  -webkit-text-strokeWidth: 0.5;
+  -webkit-text-stroke-color: #327f9a;
+  font-family: GilroyExtraBold;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.letter-grid {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.3vw;
+}
+
+.letter-button {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #5cd5ff;
+  background: var(--Light-Alpha-Light-Alphat--20, rgba(255, 255, 255, 0.2));
+
+  color: #fff;
+  text-align: center;
+  -webkit-text-strokeWidth: 0.5;
+  -webkit-text-stroke-color: #327f9a;
+  font-family: GilroyExtraBold;
+  font-size: 3vh;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.letter-button-wrong {
+  background: #ffdcdc;
+  color: #ff1f23;
+}
+
+.letter-button-correct {
+  background: #edffdc;
+  color: #54ff79;
+}
+
+.letter-button-done {
+  visibility: hidden;
+}
+
+.game-status {
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  top: 30%;
+}
+
+.game-status.correct {
+  text-align: center;
+  -webkit-text-strokeWidth: 1;
+  -webkit-text-stroke-color: #21983b;
+  font-family: Gilroy Bold;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background: linear-gradient(267deg, #a4ff54 3.73%, #00bb28 95.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game-status.wrong {
+  text-align: center;
+  -webkit-text-strokeWidth: 1;
+  -webkit-text-stroke-color: #8b2635;
+  font-family: Gilroy Bold;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  background: linear-gradient(267deg, #ff5900 3.73%, #ec0000 95.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.guess_manage_btn_cont {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3vw;
+  margin: 2vh auto 6vh;
+}
+.guess_manage_btn {
+  height: 5.6vh;
+  width: 5.6vh;
+}
+.guess_manage_btn2 {
+  height: 6vh;
+  width: 6vh;
+}
+

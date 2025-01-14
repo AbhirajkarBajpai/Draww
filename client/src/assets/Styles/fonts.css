@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('./GILROY/Radomir\ Tinkov\ -\ Gilroy-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./GILROY/Gilroy-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GilroyExtraBold';
+    src: url('./GILROY/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf') format('opentype');
+}

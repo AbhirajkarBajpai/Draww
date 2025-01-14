@@ -1,0 +1,38 @@
+.submitInfo_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin-top: 3vh;
+}
+
+.submitBtn {
+  background: linear-gradient(180deg, #aaff00, #3dff07);
+  color: #333;
+  font-size: 2.75vh;
+  height: 6vh;
+  width: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 #2b9d71;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.GiveUp{
+  background: linear-gradient(180deg, #df4b0c, #ff1307);
+  box-shadow: 0 8px 0 #9d2b62;
+}
+
+.submitBtn:active {
+  transform: translateY(4px);
+  box-shadow: 0 4px 0 #ff9800;
+}
