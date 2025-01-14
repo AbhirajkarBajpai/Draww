@@ -1,6 +1,6 @@
 # Draww
 
-**Draww** is an interactive and creative game inspired by "Draw Something." It provides a fun and engaging way to challenge friends by creating and solving drawing-based puzzles.
+**Draww** is an interactive and creative game Build on NextJS. It provides a fun and engaging way to challenge friends by creating and solving drawing-based puzzles.
 
 ## Features
 
@@ -29,6 +29,7 @@
 
 ### Frontend
 - **Next.js**: For a seamless, responsive, and interactive user interface.
+- **Canvas**: Enables intuitive and feature-rich drawing capabilities.
 
 ### Backend
 - **Express**: To manage APIs and application logic.
@@ -36,8 +37,6 @@
 ### File Storage
 - **AWS S3**: Securely stores drawing videos and images.
 
-### Drawing Implementation
-- **Canvas API**: Enables intuitive and feature-rich drawing capabilities.
 
 ## Future Enhancements
 
