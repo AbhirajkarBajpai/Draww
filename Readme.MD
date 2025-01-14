@@ -28,7 +28,7 @@
 ## Technologies Used
 
 ### Frontend
-- **Next.js**: For a seamless, responsive, and interactive user interface.
+- **Next.js**: for client side implementation , For a seamless, responsive, and interactive user interface.
 - **Canvas**: Enables intuitive and feature-rich drawing capabilities.
 
 ### Backend
@@ -38,7 +38,7 @@
 - **AWS S3**: Securely stores drawing videos and images.
 
 ### Database
--**MongoDB**: For relevant data storage regarding challenges.
+- **MongoDB**: For relevant data storage regarding challenges.
 
 ## Future Enhancements
 
